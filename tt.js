@@ -9,6 +9,7 @@ $(document).ready(function() {
       } else {
           $(this).html('O');
       }
+      this.classList.add("active");
       // check for winner
       checkForWinner();
       $(this).off('click');
@@ -26,7 +27,7 @@ $(document).ready(function() {
             gameEnd();
             alert(firstMove + " Wins!")
             return;
-          }
+          };
 
       };  
       checkForTieGame();

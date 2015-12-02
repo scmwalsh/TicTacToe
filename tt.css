@@ -1,11 +1,21 @@
 
 td {
 border: 1px solid #000;
-padding: 50px;
+transition: transform 2s ease-in-out, background-color 2s;
+background-color: blue;
+width: 100px;
+height: 100px;
 }
 
 tbody {
 	text-align: center;
 }
 
+.active {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
 
+td:hover {
+	background-color: cyan;
+}
