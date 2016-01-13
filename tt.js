@@ -33,8 +33,10 @@ $(document).ready(function() {
       checkForTieGame();
   };
 
+
   function gameEnd(){
     $('td').off('click');
+    location.reload();
   };
 
   function checkForTieGame(){

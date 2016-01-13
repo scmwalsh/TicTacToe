@@ -1,10 +1,10 @@
 
 td {
-border: 1px solid #000;
+border: 5px solid #000;
 transition: transform 2s ease-in-out, background-color 2s;
-background-color: blue;
-width: 100px;
-height: 100px;
+background-color: #7FFFD4;
+width: 90px;
+height: 90px;
 }
 
 tbody {
@@ -17,5 +17,20 @@ tbody {
 }
 
 td:hover {
-	background-color: cyan;
+	background-color: #1E90FF;
 }
+
+table {
+	margin: 100px auto;
+}
+
+body{
+	background-image: url("http://screenshots.en.sftcdn.net/en/scrn/3353000/3353302/scr_0-700x509.png")
+}
+ h1 {
+ 	font-size: 80px;
+ 	text-align: center;
+ 	background-color: white;
+ 	opacity: 0.9	; 
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
